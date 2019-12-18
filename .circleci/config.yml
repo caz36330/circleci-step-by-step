@@ -7,6 +7,7 @@ jobs:
         enviroment:
           POSTGRESQL_USER: root
           POSTGRESQL_DB: circle_test
+          POSTGRES_PASSWORD: password
     steps:
       - checkout
       - run: echo "Hello CircleCI!"
