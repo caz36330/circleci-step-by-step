@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       - image: circleci/ruby:2.6.3-stretch-node
-      - image: circleci/postgres:9.6.3-alpine
+      - image: circleci/postgres:9.6-alpine
         enviroment:
           POSTGRESQL_USER: root
           POSTGRESQL_DB: circle_test
