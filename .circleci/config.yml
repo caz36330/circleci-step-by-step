@@ -6,7 +6,7 @@ jobs:
       - image: circleci/postgres:9.6.3-alpine
         enviroment:
           POSTGRESQL_USER: root
-          POSTGRESQL_DB: circleci_test
+          POSTGRESQL_DB: circle_test
     steps:
       - checkout
       - run: echo "Hello CircleCI!"
